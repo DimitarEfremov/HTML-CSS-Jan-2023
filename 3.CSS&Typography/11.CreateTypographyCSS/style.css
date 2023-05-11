@@ -2,15 +2,18 @@
     box-sizing: border-box;
   }
 
-body{
+  html{
     font-family: Helvetica, sans-serif;
+  }
+
+body{
     font-size: 16px;
     line-height: 1.5;
     padding-left: 60px;
     padding-right: 60px;
 }
 
-header, h2{
+header>*{
     font-family: Georgia, serif;
 }
 

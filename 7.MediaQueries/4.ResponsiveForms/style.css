@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    background-color: lightgray;
+}
+
+.login{
+    border: 2px darkgray solid;
+    border-radius: 2px;
+    width: 120px;
+    padding: 4px;
+    position: absolute;
+    z-index: 5;
+    top: -17px;
+    left: -1.5px;
+    z-index: 5;
+    background-color: lightgray;
+}
+
+label{
+    font-weight: bold;
+}
+
+form{
+    border: 2px darkgray solid;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px;
+    width: 340px;
+    margin: auto;
+    margin-top: 10vh;
+    position: relative;
+}
+
+.labels, .text{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form{
+    display: flex;
+    gap: 8px;
+}
+
+button{
+    color: azure;
+    background-color: black;
+    border-radius: 4px;
+    border: none;
+    width: 60px;
+    padding: 6px;
+}
+
+input:focus::placeholder {
+	color: transparent;
+}
+
+

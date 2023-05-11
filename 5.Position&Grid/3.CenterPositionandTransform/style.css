@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(238, 238, 238) ;
+}
+
+.card{
+    background-color: rgb(255, 255, 255) ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 500px;
+}
+
+image{
+    position: absolute;
+    width: 100%;
+}
+
+h3{
+    font-family: Georgia, serif;
+    font-size: 1.2em;
+}
+
+p{
+    font-family: Georgia, serif;
+    font-size: 1em;
+}
+
+.content{
+    padding: 12px;
+}
+
+button{
+    background-color: rgb(0, 153, 0) ;
+    border-radius: 6px;
+    padding: 6px;
+    align-items: end;
+}
+
+.button{
+    text-align: right;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

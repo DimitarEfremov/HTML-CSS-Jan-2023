@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+    font-family: Helvetica, sans-serif;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+header, main, footer{
+    padding-left: 20px;
+}
+
+main{
+    flex: 1;
+}
+
+footer{
+    background-color: rgb(102, 102, 102);
+    color: rgb(255, 255, 255);
+    flex-shrink: 0;
+}
